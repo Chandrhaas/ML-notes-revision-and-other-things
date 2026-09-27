@@ -1,0 +1,44 @@
+life cycle of a neural network-
+
+RAW DATA
+   ↓
+CLEAN / PREPROCESS
+   ↓
+TRAIN / VALIDATION / TEST SPLIT
+   ↓
+DATASET + DATALOADER
+   ↓
+DEFINE NEURAL NETWORK
+   ↓
+INITIALIZE PARAMETERS
+   ↓
+        ┌──────────── TRAINING LOOP ────────────┐
+        │                                       │
+        │  INPUT BATCH                          │
+        │      ↓                                │
+        │  FORWARD PASS                         │
+        │      ↓                                │
+        │  PREDICTION                           │
+        │      ↓                                │
+        │  LOSS CALCULATION                     │
+        │      ↓                                │
+        │  BACKPROPAGATION                      │
+        │      ↓                                │
+        │  GRADIENTS                             │
+        │      ↓                                │
+        │  OPTIMIZER UPDATE                     │
+        │      ↓                                │
+        │  NEXT BATCH                            │
+        │                                       │
+        └────────── repeat for epochs ──────────┘
+                       ↓
+                 VALIDATION
+                       ↓
+               HYPERPARAMETER
+                  TUNING
+                       ↓
+                    TEST
+                       ↓
+                  SAVE MODEL
+                       ↓
+                DEPLOY / INFERENCE
