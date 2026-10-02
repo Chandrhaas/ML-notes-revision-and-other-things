@@ -1,0 +1,16 @@
+                ML TRADE-OFFS
+
+1. Bias ↔ Variance
+2. Batch size ↔ Noise / Memory / Updates
+3. Learning rate ↔ Speed / Stability
+4. Model size ↔ Quality / Cost / Latency
+5. Precision ↔ Recall
+6. Latency ↔ Throughput
+7. Compute ↔ Memory
+
+for llms-
+
+8. RAG quality ↔ retrieval latency/cost
+9. Context length ↔ quality / compute / memory
+10. Quantization ↔ efficiency / model quality
+11. Fine-tuning ↔ specialization / generality
